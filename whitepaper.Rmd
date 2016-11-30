@@ -1,0 +1,33 @@
+---
+author: Carl Boettiger
+---
+
+<!--
+
+
+What is your two sentence definition of open science (or open research)? 
+Why is open science important for transforming research and learning?
+How can open science increase the societal impact of university research?
+How is open science part of, and important for your own research, teaching, and service agendas? 
+What are the important activities, structures, etc. that have supported you in pursuing open science?  
+What are the major technical, organizational, social, or cultural challenges you face, particularly as related to openness and sharing within your university and academia?
+If you had a senior leadership role in a university, what would you do to promote change and improve your university?
+What $10M or more, risky and potentially transformative, big idea research proposal would you be writing if you had the right open science resources, and institutional support?   
+-->
+
+
+Open Science is the practice of striving for to make the process and products of research transparent and reproducible, including open data, open source software and code, open access publications, pre-prints, and open lab notebooks.  The term 'Open' should reflect the Budapest definition of open access, permitting readers to reuse and remix content (e.g. copyright licensing consistent with the terms of permissive licensing such as CC-BY or BSD/MIT software licenses).  
+
+Open science advances research and training by making it easier to verify, correct, and extend existing research and training efforts.
+
+Open science increases the societal impact of research and training both directly and indirectly. Open science practices remove barriers of access to scientific results by such methods as removing paywalls through pre-prints and open access publication, contributing structured, curated and robustly archived data to the global commons, and increasing trust and participation in the process of scientific analysis and discovery.
+
+My research, teaching and service emphasize open science practices. All publications from my group are deposited in preprint servers and publisher's copies made available open access through the [University of California Open Access Policy](http://osc.universityofcalifornia.edu/open-access-policy/).  Any original or processed data used in these publications is archived in an appropriate data archive, under a Public Domain declaration (CC0) with appropriate metadata and assigned a Digital Object Identifier (DOI).  Code to reproduce the results of the analyses are made available through a public code repository under a permissive open source license (BSD-2) and a snapshot is archived in an appropriate academic repository with a DOI. Software developed in the course of an analysis is likewise archived and also actively supported & maintained (or deprecated when appropriate) through the appropriate software distribution archive (e.g. Central R Archive Network, CRAN, for R packages, or Docker Hub, for Docker images).  
+
+Teaching materials are made publicly available under permissive licensing.
+
+Open Science faces substantial technical, organizational, social and cultural challenges; though socio-cultural issues are frequently less tractable.  In many instances, technical and social challenges are also intertwined. 
+
+Technical challenges: 
+
+- Concerns about misuse of open material
