@@ -16,13 +16,128 @@ What $10M or more, risky and potentially transformative, big idea research propo
 
 ## What is Open Science? 
 
-Open Science is the practice of striving for to make the process and products of research transparent and reproducible, including open data, open source software and code, open access publications, pre-prints, and open lab notebooks. I use the term "open" to mean something that is roughly consistent with the Budapest definition of "open" access, permitting readers to reuse and remix content, but will avoid any strict definition of what it means to be open, which is not only something of a continuum but also a multi-dimensional concept.  This is most familiar and precise in the context of copyright licensing, e.g. CC-BY is consistent with this definition, though more restrictive CC licenses often used by other publishers falls short of it (e.g. by restricting reuse or remixing/re-purposing that is an important element of how science builds upon existing work).  Software licensing uses a different vocabulary in regard to openness. Permissive licenses such as MIT and BSD are closest to the Budapest definition of Open Access, and are widley recommended by Open Science advocates [see @Stodden2012]. For most purposes, the more general classification of any "Open Source" license, e.g., as defined by the Open Source Initiative <https://opensource.org>, widely recognized as the authoritative definition,  also recognizes so-called viral or copyleft licenses such as the GPL which include a clause similar to the share-alike provision of Creative Commons. Openness in software raises issues that go beyond the domain of Copyright law, in particular, regarding the issue of patents. While the issue of viral/share-alike clauses is likely the most discussed divide among open source licenses, differences with respect to patent implications are at least as relevant: for instance, many universities, including the University of California system [@] permit the use of both certain permissive and copy-left open source licenses (e.g. BSD-2, GPL-2) but forbid researchers to use others (e.g. the permissive Apache license or the copyleft GPL-3) ostensibly due to the potential patent rights that may be forfeited by the latter.  Similarly, the lawyers and scholars of the Open Source Initiative declined approval of the Creative Commons Zero Public Domain Declaration, though it is recognized as a Free, GPL-compatible license by the Free Software Foundation, which oversees the GPL license [@]) over concerns about a clause which states it has no patent implications [@]. Elsewhere, journals [e.g. @PLOS] and funders [e.g. @NSF] recognize only licenses already recognized by OSI.  These examples illustrate that overly permissive terms may be just as much a barrier to reuse as overly restrictive licenses, and more generally, that precise and practical definitions of "open" are difficult. In light of this, my definition of "Open" and "Open Science" should be seen as aspirational rather than prescriptive; a shared intent rather than shared practice.  Here I share my vision of this shared intent, how it manifests in my research, and what are some of the major challenges and opportunities for open science that lie ahead.
+Open Science is the practice of striving for to make the process and
+products of research transparent and reproducible, including open data,
+open source software and code, open access publications, pre-prints,
+and open lab notebooks. I use the term "open" to mean something that
+is roughly consistent with the Budapest definition of "open" access,
+permitting readers to reuse and remix content, but will avoid any strict
+definition of what it means to be open, which is not only something of a
+continuum but also a multi-dimensional concept.  This is most familiar and
+precise in the context of copyright licensing, e.g. CC-BY is consistent
+with this definition, though more restrictive CC licenses often used
+by other publishers falls short of it (e.g. by restricting reuse or
+remixing/re-purposing that is an important element of how science builds
+upon existing work).  Software licensing uses a different vocabulary in
+regard to openness. Permissive licenses such as MIT and BSD are closest
+to the Budapest definition of Open Access, and are widley recommended by
+Open Science advocates [see @Stodden2012]. For most purposes, the more
+general classification of any "Open Source" license, e.g., as defined by
+the Open Source Initiative <https://opensource.org>, widely recognized
+as the authoritative definition,  also recognizes so-called viral or
+copyleft licenses such as the GPL which include a clause similar to
+the share-alike provision of Creative Commons. Openness in software
+raises issues that go beyond the domain of Copyright law, in particular,
+regarding the issue of patents. While the issue of viral/share-alike
+clauses is likely the most discussed divide among open source licenses,
+differences with respect to patent implications are at least as relevant:
+for instance, many universities, including the University of California
+system [@] permit the use of both certain permissive and copy-left open
+source licenses (e.g. BSD-2, GPL-2) but forbid researchers to use others
+(e.g. the permissive Apache license or the copyleft GPL-3) ostensibly
+due to the potential patent rights that may be forfeited by the latter.
+Similarly, the lawyers and scholars of the Open Source Initiative declined
+approval of the Creative Commons Zero Public Domain Declaration, though
+it is recognized as a Free, GPL-compatible license by the Free Software
+Foundation, which oversees the GPL license [@]) over concerns about a
+clause which states it has no patent implications [@]. Elsewhere, journals
+[e.g. @PLOS_CompBio] and funders [e.g. @NSF] recognize only licenses already
+recognized by OSI.  These examples illustrate that overly permissive
+terms may be just as much a barrier to reuse as overly restrictive
+licenses, and more generally, that precise and practical definitions
+of "open" are difficult. In light of this, my definition of "Open" and
+"Open Science" should be seen as aspirational rather than prescriptive;
+a shared intent rather than shared practice.  Here I share my vision of
+this shared intent, how it manifests in my research, and what are some
+of the major challenges and opportunities for open science that lie ahead.
+
+The importance of at least two of these pillars of open science: open
+access and  open data -- have been so well established as to be now
+be mandated in some form by most major journals and funders, and yet
+remain very limited in their application due to economic, technological,
+social and cultural constraints.  For instance, Open Access publishing
+is mandated by NIH, Buroughs Welcomme Fund, and many other institutions,
+but economic (interests of established publishers) and socio-cultural
+constraints (historical reputation of journal selectivity and it's role on
+academic success) have left us with a fractured system in with embargoes
+that delay this access when it could be most relevant, splintering into
+'publisher' and 'open' versions of content (e.g. pubmed, preprint or
+institutional archives), among other issues.  While most journals have
+long required any supporting data to be 'available on request', many
+are becoming sensible to the well-documented [@] practical limitations
+of this model and now require data archiving in public repositories.
+In some ways the situation here is better than that of journal articles:
+these data may be accessed without a paywall common to journal articles,
+and the cost to authors depositing data zero or at very least much
+less than typically found in article processing charges (APCs) of
+open access journals [@Dryad].  However, technical and socio-cultural
+expectations have made compliance with these journal policies difficult
+and unpopular to enforce (or even measure), and have further limited
+the usefulness of the data even when it is deposited owing to lack of
+necessary metadata, context, and appropriate formats for facilitating
+data preservation and reuse. Once again, academic incentives for success
+(almost exclusively measured in the number of high impact publications)
+are aligned against these practices, which take time away from other
+pursuits, may facilitate research competitors, and which bring little
+reward by themselves.  Further, a lack of user-appropriate technology
+makes adopting best practices for data sharing extremely difficult.
+Likewise, a lack of technological tools that can make effective use
+of this highly heterogeneous data dramatically limits the scientific
+insights that could otherwise be gleaned from it. Despite a general consensus
+on when and how such published data should be cited, lack of training,
+precedent, and limits on bibliographies impede this practice. 
+
+The remaining pillars of open science: (3) open software and (4) open
+lab notebooks and similar elements of the progress rather than products
+of science (reagents, protocols, and so forth) are significantly less
+discussed and developed into practices and policies of researchers,
+journals, funders and other institutions. Advances in technology and the
+rapid increase in scale of data available to many scientific disciplines
+has made *using* software an increasingly essential element of almost
+any scientific research, while also stimulating growing demand for
+*developing* software to address specific data and research questions.
+Open Software is starting to receive the attention that Open Data
+has benefited from in the previous decade, with a handful of journals
+developing tentative policies regarding the availability and sharing of
+code (e.g. @Science2011 in 2011, the rise of so-called 'software journals'
+such as PLOS Comp Bio, JOSS, JORS, and others). Nevertheless, the community
+
+
+
+The Whitehouse memo "Open by Default" 
 
 ## Why is open science important for transforming research and learning?
 
-Open science advances research and training by making it easier to verify, correct, and extend existing research and training efforts.
+Open science advances and accelerates research and training by making it easier to verify, correct, and extend existing research and training efforts. 
 
-Open science increases the societal impact of research and training both directly and indirectly. Open science practices remove barriers of access to scientific results by such methods as removing paywalls through pre-prints and open access publication, contributing structured, curated and robustly archived data to the global commons, and increasing trust and participation in the process of scientific analysis and discovery.
+
+
+## How can open science increase the societal impact of university research?
+
+Open science increases the societal impact of research and training
+both directly and indirectly. Directly, Open science practices remove
+barriers of access to scientific results by such methods as removing
+paywalls through pre-prints and open access publication, contributing
+structured, curated and robustly archived data to the global commons.
+Public access to the products of publicly funded research is not only
+ethical but also increases trust and participation in the process of 
+scientific analysis and discovery.  Restricting access through paywalls,
+license agreements that prohibit text mining, or 
+
+While these arguments have been well established in the context of
+academic literature [e.g. @PLOS_OA], the societal impact of open
+science is even stronger in regard to access to data.  Much of the 
+data behind scientific findings is not even available behind a paywall
 
 ## How is open science part of, and important for your own research, teaching, and service agendas? 
 
