@@ -48,7 +48,7 @@ remixing/re-purposing that is an important element of how science builds
 upon existing work).  Software licensing uses a different vocabulary in
 regard to openness. Permissive licenses such as MIT and BSD are closest
 to the Budapest definition of Open Access, and are widley recommended by
-Open Science advocates [see @Stodden2012]. For most purposes, the more
+Open Science advocates [see @Stodden2009]. For most purposes, the more
 general classification of any "Open Source" license, e.g., as defined by
 the Open Source Initiative <https://opensource.org>, widely recognized
 as the authoritative definition,  also recognizes so-called viral or
@@ -68,7 +68,7 @@ approval of the Creative Commons Zero Public Domain Declaration, though
 it is recognized as a Free, GPL-compatible license by the Free Software
 Foundation, which oversees the GPL license over concerns about a
 clause which states it has no patent implications (see <https://lists.opensource.org/pipermail/license-review/2012-February/thread.html>). Elsewhere, journals
-[e.g. @PLOS_CompBio] and funders [e.g. @NSF] recognize only licenses already
+(e.g. PLOS CompBio) and funders (e.g. National Science Foundation) recognize only licenses already
 recognized by OSI.  **These examples illustrate that overly permissive
 terms may be just as much a barrier to reuse as overly restrictive
 licenses, and more generally, that precise and practical definitions
@@ -146,7 +146,7 @@ In some ways the situation here is better than that of journal articles:
 these data may be accessed without a paywall common to journal articles,
 and the cost to authors depositing data zero or at very least much
 less than typically found in article processing charges (APCs) of
-open access journals [@Dryad].  No doubt this reflects the relative absence of
+open access journals (e.g. <http://dataDryad.org>).  No doubt this reflects the relative absence of
 already-entrenched interests in academic publishing.  Access to large pools
 of *scientific data* free of paywalls and copyright could be far more transformative
 than open access to scientific papers alone, as in the age of data science
@@ -233,7 +233,7 @@ is a logical extension
 
 ## How is open science part of, and important for your own research, teaching, and service agendas? 
 
-My research, teaching and service emphasize open science practices. 
+My research, teaching and service emphasize open science practices.  
 
 ### Research
 
@@ -243,18 +243,19 @@ My research, teaching and service emphasize open science practices.
 
 - **Code**: Code to reproduce the results of the analyses are made available through a public code repository under a permissive open source license (BSD-2) and a snapshot is archived in an appropriate academic repository with a DOI. Software developed in the course of an analysis is likewise archived and also actively supported & maintained (or deprecated when appropriate) through the appropriate software distribution archive such as Central R Archive Network (CRAN) for R packages, or Docker Hub for Docker images.  
 
-- **Lab Notebook**: I maintain an open lab notebook since 2010 at <https://carlboettiger.info>.  Since 2015 this has been maintained in a `notebook` directory of specific projects on GitHub.  
+- **Lab Notebook**: I maintain an open lab notebook since 2010 at <https://carlboettiger.info/lab-notebook>.  Since 2015 this has been maintained in a `notebook` directory of individual projects on GitHub.  
+
+My motivation and efforts to conduct my own research in an open science have also been discussed elsewhere [e.g. @Wald2010; @Hayden2013; @Gewin2013; @Mascarelli2014, @Kitzes2017]. 
 
 ### Teaching
 
-I teach a graduate course, [Reproducible and Collaborative Data Science](http://berkeley.carlboettiger.info/espm-88b) and an undergraduate course: [Data Science in Ecology and the Environment](https://ds421.github.io/rcds) that both emphasize the practices, principles and tools of open science reproducible research.  I make all of my teaching materials for the course publicly available under an open, permissive CC-BY license with source code on GitHub repositories.  
+I teach a graduate course, [Reproducible and Collaborative Data Science](http://berkeley.carlboettiger.info/espm-88b) and an undergraduate course: [Data Science in Ecology and the Environment](https://ds421.github.io/rcds) that both emphasize the practices, principles and tools of open science reproducible research.  Additionally, I make all of my teaching materials for the course publicly available under an open, permissive CC-BY license with source code on GitHub repositories.  My teaching methods and materials have also been greatly informed by the example and experience of other faculty that have openly shared course design and content, particularly @Bryan2016 and @White2016.  
 
 ### Service
 
-I am senior fellow at the Berkeley Institute for Data Science where I am a member of the Open Science and Reproducible Research working group.  The working group has just published a book on reproducible research in which I contributed a chapter on my current workflow:  
+I am senior fellow at the Berkeley Institute for Data Science where I am a member of the Open Science and Reproducible Research working group.  The working group has just published a book on reproducible research in which I contributed a chapter on my current workflow [in @Kitzes2017].
 
-At a national level, I serve as a Science Adviser to the National Center for Ecological Analysis and Synthesis (NCEAS), which has been an early and important supporter of open science practices, including the Open Science for Synthesis program and an Open Science Codefest.  I also serve on the User Board for the  NSF Jetstream supercomputing center, where I try to serve as an advocate for an open and inclusive view of high performance computing.
-
+At a national level, I serve as a Science Adviser to the National Center for Ecological Analysis and Synthesis (NCEAS), which has been an early and important supporter of open science practices, including the Open Science for Synthesis program and an Open Science Codefest.  I also serve on the User Board for the  NSF Jetstream supercomputing center, where I try to serve as an advocate for an open and inclusive view of high performance computing towards domains not traditionally using HPC resources.
 
 ## If you had a senior leadership role in a university, what would you do to promote change and improve your university?
 
