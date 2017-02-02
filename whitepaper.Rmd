@@ -1,4 +1,5 @@
 ---
+title: Some thoughts on Open Science
 author: Carl Boettiger
 output: pdf_document
 bibliography: bib.bib
@@ -7,7 +8,7 @@ abstract: |
           issued by invitation to the NSF/NIH ImagineU Conference 
           (<http://www.ncsa.illinois.edu/Conferences/ImagineU/>) to be held on March 8-9, 2017.
           These answers reflect my own experiences and opinions at the time of writing, and
-          focus primarly though not exclusively on examples from my own field of ecology and
+          focus primarily though not exclusively on examples from my own field of ecology and
           evolutionary biology, though I believe the trends and possibilities highlighted here
           are shared to great extent by other fields.  This is a working paper whose primary
           goal is to spark discussion, not provide a comprehensive or authoritative viewpoint
@@ -47,7 +48,7 @@ by other publishers falls short of it (e.g. by restricting reuse or
 remixing/re-purposing that is an important element of how science builds
 upon existing work).  Software licensing uses a different vocabulary in
 regard to openness. Permissive licenses such as MIT and BSD are closest
-to the Budapest definition of Open Access, and are widley recommended by
+to the Budapest definition of Open Access, and are widely recommended by
 Open Science advocates [see @Stodden2009]. For most purposes, the more
 general classification of any "Open Source" license, e.g., as defined by
 the Open Source Initiative <https://opensource.org>, widely recognized
@@ -59,7 +60,7 @@ regarding the issue of patents. While the issue of viral/share-alike
 clauses is likely the most discussed divide among open source licenses,
 differences with respect to patent implications are at least as relevant:
 for instance, many universities, including the University of California
-system^[1] permit the use of both certain permissive and copy-left open
+system permit the use of both certain permissive and copy-left open
 source licenses (e.g. BSD-2, GPL-2) but forbid researchers to use others
 (e.g. the permissive Apache license or the copyleft GPL-3) ostensibly
 due to the potential patent rights that may be forfeited by the latter.
@@ -79,13 +80,12 @@ this shared intent, how it manifests in my research, and what are some
 of the major challenges and opportunities for open science that lie ahead.
 
 
-^[1]: at present the technology transfer office has not provided me with a public version of this policy
-
 ## Challenges and Opportunities
 
 
 Open science advances and accelerates research and training by making it easier to verify, correct, and extend existing research and training efforts. Barriers to access any component of scientific research: conclusions, methods, data, software tools, etc, inherently slow the progress of science.  
 
+<!--
 Open science increases the societal impact of research and training
 both directly and indirectly. Directly, Open science practices remove
 barriers of access to scientific results by such methods as removing
@@ -94,8 +94,10 @@ structured, curated and robustly archived data to the global commons.
 Public access to the products of publicly funded research is not only
 ethical but also increases trust and participation in the process of 
 scientific analysis and discovery.  Restricting access through paywalls,
-license agreements that prohibit text mining, or 
-
+license agreements, inconsistent and proprietarty formats not only slow the normal
+research process, but also make it impossible to perform 
+transformative work of synthesizing, evaluating and extending research at scale.
+-->
 
 The best way to understand the importance of Open Science is to understand how these barriers currently impact research.
 This will help establish some broad context as to the present state of open 
@@ -106,14 +108,14 @@ Recognizing these generalizations first will permit me to focus my replies
 to these queries on those areas where the benefits have been least-well
 enunciated, accepted, or put into practice by our scientific communities. 
 
- I attempt to address these related questions on the *importance* and the *challenges* together:
+I attempt to address these related questions on the *importance* and the *challenges* together:
 
-- ***A*** Why is open science important for transforming research and learning? 
-- ***B*** What are the major technical, organizational, social, or cultural challenges you face, particularly as related to openness and sharing within your university and academia?
-- ***C*** How can open science increase the societal impact of university research?
+1. Why is open science important for transforming research and learning? 
+2. What are the major technical, organizational, social, or cultural challenges you face, particularly as related to openness and sharing within your university and academia?
+3. How can open science increase the societal impact of university research?
 
 Despite the obvious synergies between the different elements of open science in scientific research as a process, I think it is essential to take the different components: open access, open data, open code, and open context, separately in order to understand the current challenges and opportunities each entails.
-The different components of open science are primarily important to somewhat different audiences, and have achieved different degrees of recognition. I adress the challenges and opportunities of each pillar in turn here, deferring to other literature where the case or at least the terms of debate have already been clearly established in the community. The importance of at least two of these pillars of open science: open
+The different components of open science are primarily important to somewhat different audiences, and have achieved different degrees of recognition. I address the challenges and opportunities of each pillar in turn here, deferring to other literature where the case or at least the terms of debate have already been clearly established in the community. The importance of at least two of these pillars of open science: open
 access and  open data -- have been so well established as to be now
 be mandated in some form by most major journals and funders [e.g @Gewin2016; @Roche2015]. 
 The other two remain much more of the frontier.
@@ -128,7 +130,7 @@ subscription-based journals, which researchers are reluctant to abandon and publ
 reluctant to tamper with.  Though new journals at all levels tend towards an open
 access model, the tight coupling of credit and prestige with established journals
 makes a rapid transition towards open access unlikely.  Meanwhile, mandates by
-funders such as NIH, Buroughs Welcomme Fund, as well as institutional requirements
+funders such as NIH, Burroughs Welcomme Fund, as well as institutional requirements
 such as the University of California Open Access Policy have instead largely promoted
 a model which splinters content into 'publisher' and 'open' versions through the use
 of preprint or institutional archives.  Because institutions responsible for the
@@ -197,7 +199,7 @@ any scientific research, while also stimulating growing demand for
 Open code is starting to receive the attention that Open Data
 has benefited from in the previous decade, with a handful of journals discussing or
 developing tentative policies regarding the availability and sharing of
-code (e.g. @Science2011 in 2011, the rise of so-called 'software journals'
+code (e.g. new policy at _Science_ [@Hanson2011], the rise of so-called 'software journals'
 such as PLOS Comp Bio, JOSS, JORS, and others).  
 
 Open code may be subdivided into "software," which I will use to refer
@@ -210,7 +212,7 @@ research, while some software development teams may have few real users.
 (This division between intent is also present in data archiving, between
 large team efforts such as genome sequencing or NEON that seek to generate
 well-curated data for others, vs the long-tail of data being generated en 
-route to an individual researcher's own objectives).  The challenges and opportunites
+route to an individual researcher's own objectives).  The challenges and opportunities
 are somewhat different between these categories. With respect to open code,
 the primary objective of open science movement has been to encourage researchers
 to "publish your code, it is good enough" [@Barnes2010]. Access to such code is 
@@ -218,16 +220,21 @@ often essential to replicating and understanding results drawn from it.  In cont
 the emphasis on open software is that it has largely not been good enough -- more 
 attention to best practices of software development and open source community-building
 can improve the reliability, usability, provenance, integrity, and reproducibility
-of the software over the long term [e.g. see papers from the WSSSPE workshops, http://wssspe.researchcomputing.org.uk/].
+of the software over the long term (e.g. see papers from the WSSSPE workshops, http://wssspe.researchcomputing.org.uk/).
 
 
-### Open context (open notebooks, open protocols, etc)
+### Open context (open notebooks, open protocols, open reviews, etc)
 
-These elements have received the least attention -- it is not yet clear
-if "open context" is the right term or if these elements should truly be lumped together.
-Such elements face a more fundamental division from those previously discussed
-in that they shift the focus from *product* to *process*. In some ways this
-is a logical extension
+These elements have received the least attention -- indeed it is not clear
+that they should be should truly be lumped together. Yet each of these
+components face a more fundamental division from those previously discussed
+in that they shift the focus from something that can become recognized as a
+*product* in it's own right to something that is part of the *process*. Ultimately
+a shift from *product to process* captures the ideal of open science -- by 
+it's nature scientific research is always a work in progress which builds on
+previous products.  The ability to share process directly both improves our 
+ability validate and uncover limitations of previous work as well as extend and
+synthesize isolated results into general patterns.
 
 
 
@@ -259,13 +266,13 @@ At a national level, I serve as a Science Adviser to the National Center for Eco
 
 ## If you had a senior leadership role in a university, what would you do to promote change and improve your university?
 
-Open science practices often fall outside the standard academic scope of incentives and the currency of hiring and promoting.  It is possible and can be effective to align these objectives whenever possible: for instance, software papers can translate software development into a more traditional currency of publication and citation, and certain grant opportunities may look favorably on open science goals and practices, and a researcher recognized for these practices may enjoy less tangiable benefits of recognition. Yet for the most part these efforts will be at odds with the expectation to publish regularly in prestigious venues which makes up the cornerstone of scientific reward.  The best thing senior university leadership can do to promote open science would be to protect and encourage these practices among junior faculty.  
+Open science practices often fall outside the standard academic scope of incentives and the currency of hiring and promoting.  It is possible and can be effective to align these objectives whenever possible: for instance, software papers can translate software development into a more traditional currency of publication and citation, and certain grant opportunities may look favorably on open science goals and practices, and a researcher recognized for these practices may enjoy less tangible benefits of recognition. Yet for the most part these efforts will be at odds with the expectation to publish regularly in prestigious venues which makes up the cornerstone of scientific reward.  The best thing senior university leadership can do to promote open science would be to protect and encourage these practices among junior faculty.  
 
 ## What risky and potentially transformative, big idea research proposal would you be writing if you had the right open science resources, and institutional support?   
 
-I firmly believe the most transformative big research idea would be the creation of the right open science resources, including institutional support, in the first place.  While I will always be excited and fascniated by research in my own field in theoretical ecology and conservation decision-making and argue as vigorously as the next scientist about the fundamental importance of understanding the natural ecosystems that support our food security, economic and cultural stability, research which transforms how much larger parts of our scientific community generates knowledge and sees that knowledge translated into invention, policy, and application will by its very definition have greater and broader impact. Many of the most transformative changes to happen both in science and beyond in the past several decades have been the result not of demonstrating that something was possible for a small group of highly specialized individuals, but in demonstrating that it was practical at scales which made the previously inconcievable routine: high throughput sequencing, Moore's law, big data and machine learning. That the most transformative work increases the productivity of the greatest number of researchers (both in academia and beyond) is nearly tautological. Status quo practices that stand in contrast to open science practices are some of the most obvious and artificial sources of inefficency in research productivity, since they only increase friction (or more precisely, prevent the decrease in friction due to technological advances) in access and exchange of scientific knowledge.  Few if any of these practices prevent exchange and thus provide some potentially valuable protection (e.g. in the manner of a patent), but instead add friction in the form of paywalls, data that can only be accessed on request and manually converted to a machine readable form.  
+I firmly believe the most transformative big research idea would be the creation of the right open science resources, including institutional support, in the first place.  While I will always be excited and fascinated by research in my own field in theoretical ecology and conservation decision-making and argue as vigorously as the next scientist about the fundamental importance of understanding the natural ecosystems that support our food security, economic and cultural stability, research which transforms how much larger parts of our scientific community generates knowledge and sees that knowledge translated into invention, policy, and application will by its very definition have greater and broader impact. Many of the most transformative changes to happen both in science and beyond in the past several decades have been the result not of demonstrating that something was possible for a small group of highly specialized individuals, but in demonstrating that it was practical at scales which made the previously inconceivable routine: high throughput sequencing, Moore's law, big data and machine learning. That the most transformative work increases the productivity of the greatest number of researchers (both in academia and beyond) is nearly tautological. Status quo practices that stand in contrast to open science practices are some of the most obvious and artificial sources of inefficiency in research productivity, since they only increase friction (or more precisely, prevent the decrease in friction due to technological advances) in access and exchange of scientific knowledge.  Few if any of these practices prevent exchange and thus provide some potentially valuable protection (e.g. in the manner of a patent), but instead add friction in the form of paywalls, data that can only be accessed on request and manually converted to a machine readable form.   Research data is most useful when it is preserved in open, machine-readable, well annotated formats.  Results are most useful when they can reach the largest audience, be more easily validated, reproduced and extended. Research software will make little impact if it is poorly maintained or cannot be extended to changing types and sizes of data or integrated with other methods. 
 
-Only through education training of the next generation can we accomplish wide-reaching reform of such practices.  We need a generation of scientists who posess both the knowledge and the desire to perform research 
+Only through education training of the next generation can we accomplish wide-reaching reform of such practices.  We need a generation of scientists who  both the knowledge and the desire to perform research in a manner that maximizes its potential impact. Basic training in broad-sense data science and reproducible research is fundamental for this transformation, both in academia and beyond.  
 
 <!--
 
